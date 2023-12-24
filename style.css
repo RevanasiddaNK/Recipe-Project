@@ -1,0 +1,239 @@
+/* HEADER */
+.mainHeadBox{
+    height: 10rem;
+    /* width: 100%; */
+    background: linear-gradient(to top, rgb(215, 214, 214) 0%, rgb(215, 214, 214) 40%, aqua 40% , aqua 100%);
+    /* border: 2px black solid; */
+    display: flex;
+    flex-direction: row;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.titleBox{
+    margin: 10px;
+    width: 30vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s 0s ease-out;   
+}
+
+.titleBox:hover{
+    transform: scale(1.25);
+}
+
+.titleBox h1{
+   
+    color: rgb(50, 42, 42);
+    /* font-stretch:ultra-condensed; */
+    font-size: 100px; 
+    text-shadow: 5px 5px white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navBox{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainHeadBox .upNavBox{
+    width: 70vw;
+    height: 50%;
+    /* border: 2px black solid; */
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    list-style-type: none;
+    
+}
+
+
+.mainHeadBox .lowNavBox{
+    width: 70vw;
+    height: 50%;
+    /* border: 2px black solid; */
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    transition: all 1s 0s ease-out;
+
+    li:hover {color: red;}
+}
+
+.upNavBox a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+.lowNavBox a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.lowNavBox a:hover{
+    color: red;
+}
+
+.upNavBox a:hover{
+    text-decoration: underline;
+}
+
+
+/* MAIN */
+
+.mainContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.itemBox{
+
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 1000px;
+
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.itemContentBox h2{
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemimgBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemimgBox img{
+    width: 15rem;
+    height: 15rem;
+    margin: 20px;
+    transition: 0.5s 0s linear;
+}
+.itemimgBox img:hover{
+    transform: scale(1.25);
+}
+.itemimgBox iframe{
+    margin :15px;
+}
+
+
+
+
+/* FOOTER */
+
+.mainfooter{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(102, 94, 94);
+    width : 100%;
+    height: 35rem;
+    color: white;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 100px;
+    width: 30%;
+}
+
+.titleBox2{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(50, 42, 42);
+    font-size: 50px; 
+    text-shadow: 5px 5px white;
+    transition: 0.5s 0s linear;
+}
+
+.titleBox2:hover{
+    transform: scale(1.25);
+}
+
+.leftfooter h3{
+    margin: 10px;
+    font-size: 30px;
+    color: white; 
+}
+
+.email{
+    display: flex;
+}
+
+#b1{
+    background-color: red;
+    color: white;
+    margin: 5px;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedia img{
+    width: 25px;
+    height: 25px;
+}
+
+.socialmedia li{
+    list-style-type: none;
+
+}
+
+.apps{
+    margin: 10px;
+}
+
+.apps img{
+    padding: 10px;
+    margin: 50px;
+    height: 60px;
+    width: 150px;
+}
+
+.links li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(235, 138, 138);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.links a:hover{
+    color: aliceblue;
+}
+
+
+
